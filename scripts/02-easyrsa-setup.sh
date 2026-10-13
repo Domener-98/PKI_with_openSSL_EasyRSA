@@ -1,7 +1,5 @@
-#!/usr/bin/env bash
+
 # Method 2: Easy-RSA installation and CA creation (openSUSE Leap 15.6)
-# Rebuilt from the project documentation (docs/en/procedure.md, section 4)
-set -euo pipefail
 
 # Installation (if PackageKit blocks zypper: sudo pkcon quit)
 sudo zypper install -y easy-rsa
