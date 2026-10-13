@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+
 # OCSP responder for the Easy-RSA CA
 # Usage :
 #   ./05-ocsp.sh init            -> creates the responder certificate
@@ -7,7 +7,7 @@
 #
 # Corrected version: the index and CA point to the Easy-RSA PKI,
 # which issued the tested certificates (see the note in docs/en/procedure.md).
-set -euo pipefail
+
 
 PKI=~/projetPKI/easy-RSA/pki
 PORT=8888
