@@ -1,7 +1,6 @@
-#!/usr/bin/env bash
+
 # Issue user and server certificates, PKCS#12 export
-# Rebuilt from the project documentation (docs/en/procedure.md, sections 5 and 6)
-set -euo pipefail
+
 
 USER_CN="${1:-user1}"
 SERVER_CN="${2:-server1}"
