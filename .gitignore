@@ -1,0 +1,14 @@
+# --- Ne JAMAIS publier de clés privées ni de conteneurs de clés ---
+*.key
+*.p12
+*.pfx
+*.inline
+*.req
+*.csr
+private/
+pki/
+projetPKI/
+
+# Fichiers système
+.DS_Store
+Thumbs.db
