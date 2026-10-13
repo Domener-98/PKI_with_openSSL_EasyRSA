@@ -1,7 +1,6 @@
-#!/usr/bin/env bash
+
 # Method 1: manual creation of a root CA with OpenSSL
-# Rebuilt from the project documentation (docs/en/procedure.md, sections 2 and 3)
-set -euo pipefail
+
 
 BASE=~/projetPKI
 
