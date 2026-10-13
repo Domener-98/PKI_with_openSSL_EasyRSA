@@ -1,9 +1,8 @@
-#!/usr/bin/env bash
-# Certificate revocation, CRL generation and publication
-# Rebuilt from the project documentation (docs/en/procedure.md, sections 7 and 8)
-set -euo pipefail
 
-SERVER_CN="${1:-server1}"
+# Certificate revocation, CRL generation and publication
+
+
+SERVER_CN="server1"
 
 cd ~/projetPKI/easy-RSA
 
