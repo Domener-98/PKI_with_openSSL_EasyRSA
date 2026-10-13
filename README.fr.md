@@ -45,11 +45,9 @@ flowchart TD
 5. **Révocation** : révocation du certificat serveur, vérification dans `index.txt`
 6. **CRL et OCSP** : génération et publication de la CRL sur Apache, mise en place d'un répondeur OCSP
 
-➡️ **Procédure complète, commandes expliquées et captures : [docs/fr/procedure.md](docs/fr/procedure.md)**
+ **Procédure complète, commandes expliquées et captures : [docs/fr/procedure.md](docs/fr/procedure.md)**
 
-![Certificat racine : extension CA:TRUE](screenshots/04-ca-racine-extensions.png)
 
-![index.txt après révocation : V = valide, R = révoqué](screenshots/21-index-revocation.png)
 
 ## OpenSSL ou Easy-RSA ?
 
